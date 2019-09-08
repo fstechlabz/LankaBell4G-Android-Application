@@ -12,10 +12,10 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MonthlyBillFragment extends Fragment {
+public class DetailedBillFragment extends Fragment {
     Button buttonBillHistory;
 
-    public MonthlyBillFragment() {
+    public DetailedBillFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class MonthlyBillFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_monthly_bill, container, false);
+        View v = inflater.inflate(R.layout.fragment_detailed_bill, container, false);
         buttonBillHistory = v.findViewById(R.id.buttonBillHistory);
         changeComplaints();
         return v;
@@ -35,7 +35,7 @@ public class MonthlyBillFragment extends Fragment {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        HomeActivity.fm.beginTransaction().replace(R.id.fragment_container_sub, new MonthlyBillInvoiceFragment(), null).commit();
+                        HomeActivity.fm.beginTransaction().replace(R.id.fragment_container_sub, new DetailedBillInvoiceFragment(), null).commit();
                     }
                 }
         );

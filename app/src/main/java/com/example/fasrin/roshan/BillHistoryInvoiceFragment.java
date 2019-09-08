@@ -12,10 +12,10 @@ import android.widget.Button;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MonthlyBillFragment extends Fragment {
-    Button buttonBillHistory;
+public class BillHistoryInvoiceFragment extends Fragment {
+    Button buttonDownload;
 
-    public MonthlyBillFragment() {
+    public BillHistoryInvoiceFragment() {
         // Required empty public constructor
     }
 
@@ -24,20 +24,21 @@ public class MonthlyBillFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_monthly_bill, container, false);
-        buttonBillHistory = v.findViewById(R.id.buttonBillHistory);
+        View v = inflater.inflate(R.layout.fragment_bill_history_invoice, container, false);
+        buttonDownload = v.findViewById(R.id.buttonDownload);
         changeComplaints();
         return v;
     }
 
     public void changeComplaints() {
-        buttonBillHistory.setOnClickListener(
+        buttonDownload.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        HomeActivity.fm.beginTransaction().replace(R.id.fragment_container_sub, new MonthlyBillInvoiceFragment(), null).commit();
+                        HomeActivity.fm.beginTransaction().replace(R.id.fragment_container_sub, new BillHistoryFragment(), null).commit();
                     }
                 }
         );
     }
+
 }

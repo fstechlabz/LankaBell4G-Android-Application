@@ -9,7 +9,7 @@ import android.os.Bundle;
 
 public class HomeActivity extends AppCompatActivity {
 
-    public static FragmentManager fm;
+    public static FragmentManager fm,fm1;
     private TabItem paymentTab,billDetailsTab;
     private TabLayout tabLayout;
 
@@ -23,6 +23,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
         fm =getSupportFragmentManager();
+        fm1 = getSupportFragmentManager();
 
         if(findViewById(R.id.fragment_container) != null) {
             if(savedInstanceState!= null) {
@@ -33,6 +34,17 @@ public class HomeActivity extends AppCompatActivity {
             BillDetailsFragment bdf = new BillDetailsFragment();
             ft.add(R.id.fragment_container, bdf,null);
             ft.commit();
+        }
+
+        if(findViewById(R.id.fragment_container_sub)!= null) {
+            if(savedInstanceState!= null) {
+                return;
+            }
+
+            FragmentTransaction ft1 = fm1.beginTransaction();
+            MonthlyBillFragment mbf = new MonthlyBillFragment();
+            ft1.add(R.id.fragment_container_sub, mbf,null);
+            ft1.commit();
         }
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

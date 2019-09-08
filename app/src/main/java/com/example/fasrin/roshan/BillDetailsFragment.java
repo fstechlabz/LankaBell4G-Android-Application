@@ -35,29 +35,16 @@ public class BillDetailsFragment extends Fragment {
         c = v.getContext();
         tabLayoutSub = v.findViewById(R.id.tabLayout_sub);
 
-//        fm1 =getSupportFragmentManager();
-//
-//        if(v.findViewById(R.id.fragment_container_sub) != null) {
-//            if(savedInstanceState!= null) {
-//
-//            }
-//
-//            FragmentTransaction ft1 = fm1.beginTransaction();
-//            MonthlyBillFragment bdf = new MonthlyBillFragment();
-//            ft1.add(R.id.fragment_container_sub, bdf,null);
-//            ft1.commit();
-//        }
-
         tabLayoutSub.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
 
                 if(tab.getText().equals("Monthly Bill")) {
-                    BillDetailsFragment.fm1.beginTransaction().replace(R.id.fragment_container_sub,new MonthlyBillFragment(),null).commit();
+                    HomeActivity.fm1.beginTransaction().replace(R.id.fragment_container_sub,new MonthlyBillFragment(),null).commit();
                 } else if(tab.getText().equals("Bill History")) {
-                   // Toast.makeText(c,tab.getText(),Toast.LENGTH_LONG).show();
+                    HomeActivity.fm1.beginTransaction().replace(R.id.fragment_container_sub,new BillHistoryFragment(),null).commit();
                 } else if(tab.getText().equals("Detailed Bill")) {
-                    //HomeActivity.fm.beginTransaction().replace(R.id.fragment_container,new ComplaintsFragment(),null).commit();
+                    HomeActivity.fm1.beginTransaction().replace(R.id.fragment_container_sub,new DetailedBillFragment(),null).commit();
                     //Toast.makeText(c,tab.getText(),Toast.LENGTH_LONG).show();
                 }
             }
@@ -75,5 +62,10 @@ public class BillDetailsFragment extends Fragment {
         return v;
     }
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
+
+    }
 }
