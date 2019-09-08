@@ -22,6 +22,7 @@ public class HomeActivity extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabLayout);
 
 
+
         fm =getSupportFragmentManager();
         fm1 = getSupportFragmentManager();
 
@@ -69,5 +70,8 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
+
     }
+
+
 }
