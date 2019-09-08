@@ -4,6 +4,7 @@ import android.support.design.widget.TabItem;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -20,8 +21,8 @@ public class HomeActivity extends AppCompatActivity {
         paymentTab = findViewById(R.id.paymentTab);
         billDetailsTab = findViewById(R.id.billDetailsTab);
         tabLayout = findViewById(R.id.tabLayout);
-
-
+        
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         fm =getSupportFragmentManager();
         fm1 = getSupportFragmentManager();
@@ -73,5 +74,15 @@ public class HomeActivity extends AppCompatActivity {
 
     }
 
+        @Override
+        public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+        }
 
+        @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+        }
 }
