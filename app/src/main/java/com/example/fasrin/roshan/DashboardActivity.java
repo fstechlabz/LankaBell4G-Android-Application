@@ -22,7 +22,6 @@ public class DashboardActivity extends AppCompatActivity {
                     public void onClick(View v) {
                         Intent billHomeActivity = new Intent(DashboardActivity.this, HomeActivity.class);
                         startActivity(billHomeActivity);
-
                     }
                 }
         );

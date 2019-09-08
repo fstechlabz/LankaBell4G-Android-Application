@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity {
         paymentTab = findViewById(R.id.paymentTab);
         billDetailsTab = findViewById(R.id.billDetailsTab);
         tabLayout = findViewById(R.id.tabLayout);
-        
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         fm =getSupportFragmentManager();
