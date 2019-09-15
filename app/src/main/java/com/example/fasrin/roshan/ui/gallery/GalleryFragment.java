@@ -1,5 +1,6 @@
 package com.example.fasrin.roshan.ui.gallery;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +12,9 @@ import android.support.v4.app.Fragment;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 
+
 import com.example.fasrin.roshan.R;
+import com.example.fasrin.rushaid.PaymentDashboard;
 
 public class GalleryFragment extends Fragment {
 
@@ -29,6 +32,8 @@ public class GalleryFragment extends Fragment {
                 textView.setText(s);
             }
         });
+//        Intent i = new Intent(getActivity(), PaymentDashboard.class);
+//        startActivity(i);
         return root;
     }
 }

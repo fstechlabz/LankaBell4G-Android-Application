@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.fasrin.SignupActivity"></activity>
+        <activity android:name="com.example.fasrin.rushaid.SuccessfullMessage"></activity>
+        <activity android:name="com.example.fasrin.rushaid.SendPasswordForPay" />
+        <activity android:name="com.example.fasrin.rushaid.PasswordEnter" />
+        <activity android:name="com.example.fasrin.rushaid.Payment" />
+        <activity android:name="com.example.fasrin.rushaid.PaymentBox" />
+
+        <activity android:name="com.example.fasrin.rushaid.History" />
+        <activity android:name="com.example.fasrin.rushaid.DuePayments" />
+        <activity android:name="com.example.fasrin.rushaid.PaymentDashboard" />
+        <activity android:name="com.example.fasrin.rushaid.CardDetails" />
+        <activity android:name="com.example.fasrin.SignupActivity" />
         <activity android:name="com.example.fasrin.ForgotPasswordActivity" />
         <activity
             android:name=".MenuActivity"

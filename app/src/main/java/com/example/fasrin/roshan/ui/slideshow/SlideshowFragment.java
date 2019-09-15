@@ -12,10 +12,11 @@ import android.support.v4.app.Fragment;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 
-import com.example.fasrin.roshan.ComplaintsFragment;
+
 import com.example.fasrin.roshan.DashboardActivity;
 import com.example.fasrin.roshan.HomeActivity;
 import com.example.fasrin.roshan.R;
+import com.example.fasrin.rushaid.PaymentDashboard;
 
 public class SlideshowFragment extends Fragment {
 
@@ -33,8 +34,8 @@ public class SlideshowFragment extends Fragment {
 //                textView.setText(s);
 //            }
 //        });
-//        Intent i = new Intent(getActivity(), DashboardActivity.class);
-//        startActivity(i);
+        Intent i = new Intent(getActivity(), PaymentDashboard.class);
+        startActivity(i);
         return root;
     }
 }
