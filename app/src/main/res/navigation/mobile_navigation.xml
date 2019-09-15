@@ -21,23 +21,23 @@
         android:id="@+id/nav_slideshow"
         android:name="com.example.fasrin.roshan.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.fasrin.roshan.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_share"
         android:name="com.example.fasrin.roshan.ui.share.ShareFragment"
-        android:label="@string/menu_share"
+        android:label=""
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
         android:name="com.example.fasrin.roshan.ui.send.SendFragment"
-        android:label="@string/menu_send"
+        android:label=""
         tools:layout="@layout/fragment_send" />
 </navigation>
