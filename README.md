@@ -28,39 +28,41 @@ Designer:	Fasrin Aleem
 Bill Info Function
 
 Steps to implement the function / Instructions: 
-●	Go to side nav and click on the “Billing Info”.
-●	Displays the Billing Info page. (Default - Monthly Bill is displaying)
+
+1.	Steps to implement the function / Instructions: 
+2.	Go to side nav and click on the “Billing Info”.
+3.	Displays the Billing Info page. (Default - Monthly Bill is displaying)
 a.	Select the Monthly Bill.
-■	Select the Bill Month.
-■	Select the Account Number
-■	Press the View Bill button
-■	Monthly Bill Invoice for the month will display
-■	Can download the Monthly Bill Invoice by clicking the Download button
+i.	Select the Bill Month.
+ii.	Select the Account Number
+iii.	Press the View Bill button
+iv.	Monthly Bill Invoice for the month will display
+v.	Can download the Monthly Bill Invoice by clicking the Download button
 b.	Select the Bill History.
-■	Select the Bill Month.
-■	Select the Account Number
-■	Press the View Bill button
-■	Bill History Invoice for the month will display
-■	Can download the Bill History Invoice by clicking the Download button
+i.	Select the Bill Month.
+ii.	Select the Account Number
+iii.	Press the View Bill button
+iv.	Bill History Invoice for the month will display
+v.	Can download the Bill History Invoice by clicking the Download button
 c.	Select the Detailed Bill.
-■	Select the Bill Month.
-■	Select the Account Number
-■	Press the View Bill button
-■	Detailed Bill Invoice for the month will display
-■	Can download the Detailed Bill Invoice by clicking the Download button
-●	Displaying the Payment Details
-●	Displaying Complaints
+i.	Select the Bill Month.
+ii.	Select the Account Number
+iii.	Press the View Bill button
+iv.	Detailed Bill Invoice for the month will display
+v.	Can download the Detailed Bill Invoice by clicking the Download button
+4.	Displaying the Payment Details
+5.	Displaying Complaints
 a.	Place a Complaint
-■	Fill the Place a Complaint form
-●	Enter concern
-●	Enter contact person name
-●	Enter Contact number
-●	Press the Send button
-●	Complaint placed success will display
-●	Can see all complaints by pressing My Complaints
-●	Can close the window by pressing close icon
+6.	Fill the Place a Complaint form
+1.	Enter concern
+2.	Enter contact person name
+3.	Enter Contact number
+4.	Press the Send button
+5.	Complaint placed success will display
+6.	Can see all complaints by pressing My Complaints
+7.	Can close the window by pressing close icon
 b.	View Complaints
-■	Can see all past complaints
+i.	Can see all past complaints
 
 Detailed Description: 
 	In the monthly bill tab, we can see the invoice for monthly bill by selecting month. In the bill history tab, we can see the invoice for bill history by selecting month. In the detailed bill history tab, we can see the invoice for bill history by selecting month. Can see the all payment details by pressing payment details tab. And, user can place, view complaints by pressing complaints tab.
