@@ -4,20 +4,20 @@ Designer:	Jahrin Sarooth
 Login Function
 
 Steps to implement the function / Instructions
-1.Open the Lanka bell app
-2.Then user will see the login page.
-3.Enter username and password
-4.If user forgot the password, click on the “forgot password link”.
-5.After the successful login user will direct to the dashboard of Lanka bell app
+1.	Open the Lanka bell app
+2.	Then user will see the login page.
+3.	Enter username and password
+4.	If user forgot the password, click on the “forgot password link”.
+5.	After the successful login user will direct to the dashboard of Lanka bell app
  
 Detailed Description: 
-1.Steps to implement the function / Instructions
-2.Open the Lanka bell app
-3.Then user will see the login page.
-4.If already have an account, enter username and password
-5.Else user can click on the signup link and create an account
-6.Also if user forgot the password, user can recover the password using the forgot password link.
-7.After the successful login user will direct to the dashboard of Lanka bell app
+1.	Steps to implement the function / Instructions
+2.	Open the Lanka bell app
+3.	Then user will see the login page.
+4.	If already have an account, enter username and password
+5.	Else user can click on the signup link and create an account
+6.	Also if user forgot the password, user can recover the password using the forgot password link.
+7.	After the successful login user will direct to the dashboard of Lanka bell app
 
 Usability & User experience issues: 
 White spaces can be customized to display different background images to the login interface.
