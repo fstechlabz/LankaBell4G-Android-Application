@@ -1,6 +1,6 @@
 # LankaBell4G-Android-Application
 
-Designer:	Jahrin Sarooth
+Designer:	Jahrin Sarooth - 
 Login Function
 
 Steps to implement the function / Instructions
@@ -25,7 +25,7 @@ White spaces can be customized to display different background images to the log
 
 
 
-Designer:	Fasrin Aleem
+Designer:	Fasrin Aleem - 
 Bill Info Function
 
 Steps to implement the function / Instructions: 
@@ -74,7 +74,7 @@ Usability & User experience issues:
 	No issues were found by the user.
 
 
-Designer:	Rushaid Rilaf
+Designer:	Rushaid Rilaf - 
 Payment Function
 
 Steps to implement the function / Instructions: 
