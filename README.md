@@ -24,6 +24,7 @@ White spaces can be customized to display different background images to the log
 
 
 
+
 Designer:	Fasrin Aleem
 Bill Info Function
 
@@ -32,24 +33,24 @@ Steps to implement the function / Instructions:
 1.	Steps to implement the function / Instructions: 
 2.	Go to side nav and click on the “Billing Info”.
 3.	Displays the Billing Info page. (Default - Monthly Bill is displaying)
-a.	Select the Monthly Bill.
-i.	Select the Bill Month.
-ii.	Select the Account Number
-iii.	Press the View Bill button
-iv.	Monthly Bill Invoice for the month will display
-v.	Can download the Monthly Bill Invoice by clicking the Download button
-b.	Select the Bill History.
-i.	Select the Bill Month.
-ii.	Select the Account Number
-iii.	Press the View Bill button
-iv.	Bill History Invoice for the month will display
-v.	Can download the Bill History Invoice by clicking the Download button
-c.	Select the Detailed Bill.
-i.	Select the Bill Month.
-ii.	Select the Account Number
-iii.	Press the View Bill button
-iv.	Detailed Bill Invoice for the month will display
-v.	Can download the Detailed Bill Invoice by clicking the Download button
+a.		Select the Monthly Bill.
+i.			Select the Bill Month.
+ii.			Select the Account Number
+iii.			Press the View Bill button
+iv.			Monthly Bill Invoice for the month will display
+v.			Can download the Monthly Bill Invoice by clicking the Download button
+b.		Select the Bill History.
+i.			Select the Bill Month.
+ii.			Select the Account Number
+iii.			Press the View Bill button
+iv.			Bill History Invoice for the month will display
+v.			Can download the Bill History Invoice by clicking the Download button
+c.		Select the Detailed Bill.
+i.			Select the Bill Month.
+ii.			Select the Account Number
+iii.			Press the View Bill button
+iv.			Detailed Bill Invoice for the month will display
+v.			Can download the Detailed Bill Invoice by clicking the Download button
 4.	Displaying the Payment Details
 5.	Displaying Complaints
 a.	Place a Complaint
