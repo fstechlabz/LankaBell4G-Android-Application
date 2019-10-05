@@ -1,11 +1,6 @@
 # LankaBell4G-Android-Application
 
-![1](https://user-images.githubusercontent.com/38991771/66250270-1e220980-e75e-11e9-8843-b07f0163dc67.jpeg)
-![2](https://user-images.githubusercontent.com/38991771/66250272-237f5400-e75e-11e9-930e-a0f5061ef855.jpeg)
-![3](https://user-images.githubusercontent.com/38991771/66250273-2712db00-e75e-11e9-9d03-808103f666c8.jpeg)
-![4](https://user-images.githubusercontent.com/38991771/66250276-29753500-e75e-11e9-9061-bc85a8b650c7.jpeg)
-![5 5](https://user-images.githubusercontent.com/38991771/66250279-2c702580-e75e-11e9-98fc-04615fe3f933.jpeg)
-![5](https://user-images.githubusercontent.com/38991771/66250280-2ed27f80-e75e-11e9-8371-ba8091d8a9a1.jpeg)
+![1](https://user-images.githubusercontent.com/38991771/66250270-1e220980-e75e-11e9-8843-b07f0163dc67.jpeg)![2](https://user-images.githubusercontent.com/38991771/66250272-237f5400-e75e-11e9-930e-a0f5061ef855.jpeg)![3](https://user-images.githubusercontent.com/38991771/66250273-2712db00-e75e-11e9-9d03-808103f666c8.jpeg)![4](https://user-images.githubusercontent.com/38991771/66250276-29753500-e75e-11e9-9061-bc85a8b650c7.jpeg)![5 5](https://user-images.githubusercontent.com/38991771/66250279-2c702580-e75e-11e9-98fc-04615fe3f933.jpeg)![5](https://user-images.githubusercontent.com/38991771/66250280-2ed27f80-e75e-11e9-8371-ba8091d8a9a1.jpeg)
 ![6 5](https://user-images.githubusercontent.com/38991771/66250283-34c86080-e75e-11e9-9660-9eee7d1c0131.jpeg)
 ![6](https://user-images.githubusercontent.com/38991771/66250284-37c35100-e75e-11e9-89c1-3a5423e3b8a2.jpeg)
 ![7 5](https://user-images.githubusercontent.com/38991771/66250285-3abe4180-e75e-11e9-89f6-57e6482116a1.jpeg)
